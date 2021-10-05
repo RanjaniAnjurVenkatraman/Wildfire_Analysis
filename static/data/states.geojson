@@ -1,0 +1,245 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -146.076317,64.992983 ]
+    },
+    "properties": {
+    "State":"AK",
+    "Fire_duration":101,
+    "IncidentName":"Munson Creek"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -108.8517,39.77581 ]
+    },
+    "properties": {
+    "State":"CO",
+    "Fire_duration":94,
+    "IncidentName":"OIL SPRINGS"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -111.69,34.3376 ]
+    },
+    "properties": {
+    "State":"AZ",
+    "Fire_duration":90,
+    "IncidentName":"Backbone"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -112.1618,34.94224 ]
+    },
+    "properties": {
+    "State":"AZ",
+    "Fire_duration":86,
+    "IncidentName":"Rafael"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -109.3831,33.446 ]
+    },
+    "properties": {
+    "State":"AZ",
+    "Fire_duration":84,
+    "IncidentName":"Bear "
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -112.197,34.21901 ]
+    },
+    "properties": {
+    "State":"AZ",
+    "Fire_duration":74,
+    "IncidentName":"Tiger"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -111.0957,33.2662 ]
+    },
+    "properties": {
+    "State":"AZ",
+    "Fire_duration":67,
+    "IncidentName":"Telegraph"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -142.924122,63.191416 ]
+    },
+    "properties": {
+    "State":"AK",
+    "Fire_duration":64,
+    "IncidentName":"Black Hills"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -119.0169,48.22861 ]
+    },
+    "properties": {
+    "State":"WA",
+    "Fire_duration":56,
+    "IncidentName":"Chuweah Creek Fire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -109.2905,33.70343 ]
+    },
+    "properties": {
+    "State":"AZ",
+    "Fire_duration":50,
+    "IncidentName":"Horton"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -110.2194,32.88181 ]
+    },
+    "properties": {
+    "State":"AZ",
+    "Fire_duration":48,
+    "IncidentName":"PINNACLE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -110.7596,33.10683 ]
+    },
+    "properties": {
+    "State":"AZ",
+    "Fire_duration":48,
+    "IncidentName":"MESCAL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -107.3676,45.90461 ]
+    },
+    "properties": {
+    "State":"MT",
+    "Fire_duration":48,
+    "IncidentName":"P F"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -120.1434,47.39861 ]
+    },
+    "properties": {
+    "State":"WA",
+    "Fire_duration":45,
+    "IncidentName":"BATTERMAN RD"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -113.6605,37.89574 ]
+    },
+    "properties": {
+    "State":"UT",
+    "Fire_duration":28,
+    "IncidentName":"Flatt"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -107.5964,47.55047 ]
+    },
+    "properties": {
+    "State":"MT",
+    "Fire_duration":27,
+    "IncidentName":"Devils Creek"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -116.4519,37.08569 ]
+    },
+    "properties": {
+    "State":"NV",
+    "Fire_duration":26,
+    "IncidentName":"CHERRYWOOD"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -102.3431,46.00258 ]
+    },
+    "properties": {
+    "State":"ND",
+    "Fire_duration":25,
+    "IncidentName":"Windy"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -110.0448,32.0827 ]
+    },
+    "properties": {
+    "State":"AZ",
+    "Fire_duration":20,
+    "IncidentName":"WALNUT"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -109.6392,47.4519 ]
+    },
+    "properties": {
+    "State":"MT",
+    "Fire_duration":19,
+    "IncidentName":"Taylor"
+    }
+  }
+]
+}
