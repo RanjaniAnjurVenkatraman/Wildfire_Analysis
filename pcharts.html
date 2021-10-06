@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>USA Wildfires Analysis Charts!</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/style1.css">
+ 
+</head>
+
+<body>
+
+  <div class="container">	
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center" style = "background-image: url(https://media.giphy.com/media/3o85xJY1FaLzqeoBGw/giphy.gif); background-size: 100%;">
+        <h1 style= "color: #ffffff;">2021 US Wildfires Analysis Charts</h1>
+        <!--<p style= "color: #000000;">Use the interactive map below to explore wildfire dataset</p>-->
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">Home
+              <!-- <img class="nav-ufo" src="static/images/3000.webp"> -->
+            </a>
+          </div>
+        </div>
+      </nav>
+  
+
+        <div class="row">
+          <div class="column">
+            <h3>Top 20 States by Wildfires</h3>
+            <br>
+            <p>Grouping by state, it can be concluded that majority of wildfires incidents happen in a couple of states,
+              with Montanta, Idaho, and Arizona being on the top of the list, respectively. Suprisingly, California comes in 
+              fourth, with Montana having more then twice the amount of incidents
+            </p>
+            <br>
+            <img src="static/images/top20states.png" alt="top20states" style="width:100%">
+          </div>
+          <div class="column">
+            <h3>Acres Burned vs Fire Duration</h3>
+            <br>
+            <p>Wildfires burned more acres the longer the duration of the fire in the beginning stage of the fire. Most of the fires, 
+              after around 20 days, were subdued and under control with only a handful still increasing in the size of acres 
+              burned. After 100 days, all fires in our dataset were under control with minimal burning.
+            </p>
+            <br>
+          <img src="static/images/pairplot.png" alt="pairplot" style="width:100%">
+        </div>
+            
+          </div>
+
+        <div class="row">
+          <div class="column">
+            <h3>Wildfires by Month</h3>
+            <br>
+            <p>Looking at the data grouped by month, We can clearly see that the number of wildfires in winter is relatively low and that it significantly increases in the summer, especially in June and July</p>
+            <br>
+            <img src="static/images/months.png" alt="months" style="width:100%">
+          </div>
+            <div class="column">
+                <h3>Top Causes</h3>
+                <br>
+                <p>Tree Map with the top causes of wildfires shows us that the biggest cause of wildfires
+                  lighting. For a good chunk of it, the cause of the fire is not
+                known.  </p>
+                <br>
+                <br>
+              <img src="static/images/topcauses.png" alt="topcauses" style="width:100%">
+            </div>
+        </div>
+
+        
+
+    <!-- map div -->
+    <div id="map"></div>
+
+    <!-- API key -->
+    <script type="text/javascript" src="static/js/config.js"></script>
+    <!-- JS  -->
+    <script type="text/javascript" src="static/js/logic.js"></script>
+</body>
+
+</html>
