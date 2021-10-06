@@ -54,7 +54,7 @@ var overlayMaps = {
 // Creating map object
 var myMap = L.map("map", {
   center: [37.09, -95.71],
-  zoom: 6.4,
+  zoom: 13,
   layers: [darkMap, wildfires, states]
 });
 
