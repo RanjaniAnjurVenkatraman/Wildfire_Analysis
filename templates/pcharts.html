@@ -32,7 +32,7 @@
       <nav class="navbar navbar-default">
         <div class="container-fluid">
           <div class="navbar-header">
-            <a class="navbar-brand" href="/">Home
+            <a class="navbar-brand" href="index.html">Home
               <!-- <img class="nav-ufo" src="static/images/3000.webp"> -->
             </a>
           </div>
@@ -75,7 +75,7 @@
             <div class="column">
                 <h3>Top Causes</h3>
                 <br>
-                <p>Square plot with the top causes of wildfires shows us that the biggest cause of wildfires is
+                <p>Tree Map with the top causes of wildfires shows us that the biggest cause of wildfires
                   lighting. For a good chunk of it, the cause of the fire is not
                 known.  </p>
                 <br>
@@ -95,7 +95,6 @@
               </div>
           </div>
        </div>
-        
 
     <!-- map div -->
     <div id="map"></div>
@@ -104,21 +103,20 @@
     <script type="text/javascript" src="../static/js/config.js"></script>
     <!-- JS  -->
     <script type="text/javascript" src="../static/js/logic.js"></script>
-    
-    <script>
-  
-      // Simple elevator usage.
-      var elementButton = document.querySelector('.elevator');
-      var elevator = new Elevator({
-          element: elementButton,
-          mainAudio: '../music/elevator.mp3', // Music from http://www.bensound.com/
-          endAudio:  '../music/ding.mp3'        
-      });
-    
-     </script>
+
     
   
-   
+   <script>
+  
+    // Simple elevator usage.
+    var elementButton = document.querySelector('.elevator');
+    var elevator = new Elevator({
+        element: elementButton,
+        mainAudio: '../music/elevator.mp3', // Music from http://www.bensound.com/
+        endAudio:  '../music/ding.mp3'        
+    });
+  
+   </script>
 </body>
 
 </html>
