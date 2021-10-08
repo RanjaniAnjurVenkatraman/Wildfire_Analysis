@@ -38,7 +38,7 @@ p {
 
 .backgrou {
   background-image: url("/w3images/photographer.jpg");
-  background-color: #cccccc;
+  background-color: black;
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
