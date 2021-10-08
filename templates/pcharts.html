@@ -104,20 +104,21 @@
     <script type="text/javascript" src="../static/js/config.js"></script>
     <!-- JS  -->
     <script type="text/javascript" src="../static/js/logic.js"></script>
-
+    
+    <script>
+  
+      // Simple elevator usage.
+      var elementButton = document.querySelector('.elevator');
+      var elevator = new Elevator({
+          element: elementButton,
+          mainAudio: '../music/elevator.mp3', // Music from http://www.bensound.com/
+          endAudio:  '../music/ding.mp3'        
+      });
+    
+     </script>
     
   
-   <script>
-  
-    // Simple elevator usage.
-    var elementButton = document.querySelector('.elevator');
-    var elevator = new Elevator({
-        element: elementButton,
-        mainAudio: '../music/elevator.mp3', // Music from http://www.bensound.com/
-        endAudio:  '../music/ding.mp3'        
-    });
-  
-   </script>
+   
 </body>
 
 </html>
