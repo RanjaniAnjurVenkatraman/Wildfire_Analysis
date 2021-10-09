@@ -1,7 +1,7 @@
 # Wildfire_Analysis
 To deploy interactive Wildfire-Analysis-2021 Dashboard  using JavaScript, Matplotlib, Leaflet, Folium, Python, Flask, HTML,CSS and Bootstrap
 
-# Wildfire Analysis
+#  :fire: Wildfire Analysis :fire:
 
 ![image](https://i.pinimg.com/originals/ec/85/10/ec85104066682a9397972283cc5badf5.jpg)
 
@@ -11,40 +11,64 @@ To deploy interactive Wildfire-Analysis-2021 Dashboard  using JavaScript, Matplo
   1. [About This Project](#about-this-project) <br>
 	 - [Architectural Diagram](#architectural-diagram)
   	 - [ETL Process](#etl-process)
-  4. [Visualizations](#visualizations)
-  5. [Deployment](#deployment)
-  6. [Contributors](#contributors)
+  2. [Technologies](#Technologies)   
+  3. [Visualizations](#visualizations)
+  4. [Deployment](#deployment)
+  5. [Contributors](#contributors)
 
-## About This Project 	
-Our team was interested in exploring wildfire data. We extracted wildfire data across the United States to create an engagine and informative visualization of all wildfires that occurred in 2021. Data was extracted from CSV source, transformed using Python, Pandas and SQL. Data was then loaded into PostgreSQL. Visualizations was done using JavaScript, Matplotlib, Leaflet, Folium, Python, Flask, HTML, CSS. Heroku was used to deploy results to a 2021 wildfire web application. 
+## About This Project :point_down:	
+Our team was interested in exploring wildfire data. As of September 14, 2021, the National Interagency Fire Center (NIFC) reported that 44,647 wildfires in the United States had burned 5.6 million acres of land. 
 
+The data was retrieved from National Interagency Fire Center’s website in a csv format, which has current and very detailed description of all wildfires in the country. 
+The csv file contained over 4000 rows and more then 100 columns. Data was extracted from CSV source, transformed using Python, Pandas and loaded into PostgreSQL. Visualizations was done using JavaScript, Matplotlib, Leaflet, Folium, Python, Flask, HTML, Bootstrap, D3 and CSS. Heroku and Github was used to deploy results to a 2021 wildfire web application. 
 
-## Architectural Diagram 	
-<img src="https://i.pinimg.com/564x/06/4f/e6/064fe6abe75865c6065de4d4c3e1df4e.jpg" width=800 align=center> <br>
+The end user for this project includes any business that owns property in wildfire country, as well as fire departments located in the area as well. Due to the millions of dollars lost in properties due to fire damage, we feel this dashboard would help them first and foremost. We also feel that this would draw the attention of any person that enjoys wildlife, because our impact on nature is a direct contribution to these fires.
 
-## ETL Process 	
+## Technologies :hammer:	
+![image](https://img.shields.io/badge/technologies-Python-orange)
+![image](https://img.shields.io/badge/technologies-Pandas-orange)
+![image](https://img.shields.io/badge/technologies-SQL-orange)
+![image](https://img.shields.io/badge/technologies-PostgreSQL-orange)
+![image](https://img.shields.io/badge/technologies-Javascript-orange)
+![image](https://img.shields.io/badge/technologies-Flask-orange)
+![image](https://img.shields.io/badge/technologies-HTML-orange)
+![image](https://img.shields.io/badge/technologies-Bootstrap-orange)
+![image](https://img.shields.io/badge/technologies-CSS-orange)
+![image](https://img.shields.io/badge/technologies-Folium-orange)
+![image](https://img.shields.io/badge/technologies-Leaflet-orange)
+![image](https://img.shields.io/badge/technologies-Plotly-orange)
+![image](https://img.shields.io/badge/technologies-D3-orange)
+
+## Architectural Diagram :boom:	
+<img src="https://i.pinimg.com/564x/c4/ac/2d/c4ac2ded29f79d991d4775a6f96c0653.jpg" width=800 align=center> <br>
+
+## ETL Process 💡	
 
 #### Extract 
 2021 Wildfire dataset was extracted from the [National Interagency Fire Center](https://data-nifc.opendata.arcgis.com/datasets/wfigs-2021-wildland-fire-perimeters-to-date/explore?location=0.000000%2C0.000000%2C0.00&showTable=true).
 
 	- Format: CSV
+    - Size: MB
 	
 
 #### Transform 
 Data was transformed and cleaned using Python, Pandas with th Jupyter Notebook. 
 Transformations include: 
-- Filtering dataframe for year = 2021.   
-- Changing column datatypes
-- Renaming columns
-- Retrieving required columns and dropping unwanted columns to load into PostgreSQL		
+- Unnecessary columns were deleted, and we renamed existing columns 
+- Wildfires with null longitude and latitude were removed and null values in the cause column were changed to “cause not found”
+- Country-State column was split into two for further analysis
+- Added Fire Duration column by subtracting the end date with the beginning date
+- After cleaning up the data, the csv was converted to a geojson file
+	
 
 #### Load
-The clean data was imported into a pgAdmin Data Base using PostgeSQL from where it can be extracted for future analysis. 
+The clean data was imported into a pgAdmin Data Base using PostgeSQL from where it can be extracted for future analysis. Imported SQLalchemy dependency in the Jupyter Notebook, an engine was created that connected to the pgAdmin Data Base, called wildfire_db.With pandas, the data frame was exported and stored in 
+the wildfire_db data base. 
 
 
-### Visualizations 	
+### Visualizations 📈	
 ## Top 20 States by Wildfires: <br>
-Grouping by state, it can be concluded that majority of wildfires incidents happen in a couple of states, with Montanta, Idaho, and Arizona being on the top of the list, respectively. Suprisingly, California comes in fourth, with Montana having more then twice the amount of incidents
+Grouping by state, it can be concluded that majority of wildfires incidents happen in a couple of states, with Montanta, Idaho, and Arizona being on the top of the list. Suprisingly, California comes in fourth, with Montana having more then twice the amount of incidents
 
 
 <img src="https://i.pinimg.com/236x/93/88/bf/9388bfbd0c8147a957585beea0043228.jpg" width=400 align=center> <br>
@@ -56,7 +80,7 @@ Wildfires burned more acres the longer the duration of the fire in the beginning
 <img src="https://i.pinimg.com/564x/b7/d0/c7/b7d0c7a71dc28b1d1ffe1f9a3e48285d.jpg" width=600 align=center> <br> 
 
 ## Wildfires by Month: <br>
-Looking at the data grouped by month, We can clearly see that the number of wildfires in winter is relatively low and that it significantly increases in the summer, especially in June and July
+Looking at the data grouped by month, we can clearly see that the number of wildfires in winter is relatively low and that it significantly increases in the summer, especially in June and July
 
 <img src="https://i.pinimg.com/originals/83/c8/4d/83c84d102ec307e097a17e299e65bf51.jpg" width=600 align=center> <br> 
 
@@ -70,10 +94,10 @@ Plotted folium map shows the states with highestduration of wildfire: bigger the
 
 <img src="https://i.pinimg.com/564x/21/2b/d6/212bd628148bf44c8bc100b7a06cfff7.jpg" width=600 align=center> <br> 
 
-## Deployment
+## Deployment 🚀
 
 CSS, Bootstrap and javascript are used to style the webpages. Elevator.js are used for scrolling purpose of the app.
-A flask app.py file was created as a micro web framework to deploy the web application hosted by Heroku as well as on GitHub.
+A flask app.py file was created as a micro web framework to deploy the web application. We hosted our application in Heroku as well as on GitHub.
 
 <img src="https://i.pinimg.com/564x/ac/49/9c/ac499c90d889075ed6454da57722358e.jpg" width=600 align=center> <br> 
 
