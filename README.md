@@ -17,10 +17,9 @@ To deploy interactive Wildfire-Analysis-2021 Dashboard  using JavaScript, Matplo
   5. [Contributors](#contributors)
 
 ## About This Project :point_down:	
-Our team was interested in exploring wildfire data. As of September 14, 2021, the National Interagency Fire Center (NIFC) reported that 44,647 wildfires in the United States had burned 5.6 million acres of land. 
+As of September 14, 2021, the National Interagency Fire Center (NIFC) reported that 44,647 wildfires in the United States had burned 5.6 million acres of land. We wanted to create an engaging and informative visualization of all wildfires that occurred in various states of USA in 2021, and other relevant data (county, month, and acres burned etc.) 
 
-The data was retrieved from National Interagency Fire Center’s website in a csv format, which has current and very detailed description of all wildfires in the country. 
-The csv file contained over 4000 rows and more then 100 columns. Data was extracted from CSV source, transformed using Python, Pandas and loaded into PostgreSQL. Visualizations was done using JavaScript, Matplotlib, Leaflet, Folium, Python, Flask, HTML, Bootstrap, D3 and CSS. Heroku and Github was used to deploy results to a 2021 wildfire web application. 
+The data was retrieved from National Interagency Fire Center’s website in a csv format, which has current and very detailed description of all wildfires in the country.The csv file contained over 4000 rows and more then 100 columns. Data was extracted from CSV source, transformed using Python, Pandas and loaded into PostgreSQL. Visualizations was done using JavaScript, Matplotlib, Leaflet, Folium, Python, Flask, HTML, Bootstrap, D3 and CSS. Heroku and Github was used to deploy results to a 2021 wildfire web application. 
 
 The end user for this project includes any business that owns property in wildfire country, as well as fire departments located in the area as well. Due to the millions of dollars lost in properties due to fire damage, we feel this dashboard would help them first and foremost. We also feel that this would draw the attention of any person that enjoys wildlife, because our impact on nature is a direct contribution to these fires.
 
@@ -101,7 +100,9 @@ A flask app.py file was created as a micro web framework to deploy the web appli
 
 # Page1 : Index 
 
-<img src="https://i.pinimg.com/564x/9c/18/53/9c1853d8cd2eb91d8280fb3b0f49108c.jpg" width=600 align=center> <br> 
+<img src="https://i.pinimg.com/564x/b4/af/8e/b4af8ee609a65d5b5807fc6353716ebd.jpg" width=600 align=center> <br> 
+
+<img src="https://i.pinimg.com/originals/56/06/fc/5606fc43aeb95410992ac7c5611a8bd2.jpg" width=600 align=center> <br> 
 
 # Page2 : Wildfire Analysis 
 
