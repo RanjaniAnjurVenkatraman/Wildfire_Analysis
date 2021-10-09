@@ -113,7 +113,7 @@ A flask app.py file was created as a micro web framework to deploy the web appli
 
 ## Unique Javascript :pencil:
 
-In our project we utilized Elevator.js for scrolling purpose. When you click on the elevator icon on the bottom of the page you will be automattically taken to the top with music :wink:
+In our project we utilized Elevator.js for scrolling purpose. When you click on the elevator icon on the bottom of the page you will be automattically taken to the top with music :wink: 🔊
 
 <img src="https://i.pinimg.com/originals/44/da/4f/44da4f48fe2e5431e8b69e89675248d1.jpg" width=600 align=center> <br>
 
@@ -124,7 +124,9 @@ Please be aware that there is a lag when you click on the link because it loads 
 - [Wildfire Dashboard - Github](https://ranjanianjurvenkatraman.github.io/Wildfire_Analysis/)
 - [Wildfire Dashboard - Heroku](https://wildfire-2021.herokuapp.com/)
 
-## Contributors
+P.S: For some reason heroku is taking long time to load so for checking purpose you can click on github for easy access
+
+## Contributors  👧👦 👩 👨
 
 - [Ranjani Venkatraman](https://github.com/RanjaniAnjurVenkatraman)
 - [Novak Radovic](https://github.com/nradovic1)
