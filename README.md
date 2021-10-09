@@ -82,12 +82,12 @@ Wildfires burned more acres the longer the duration of the fire in the beginning
 ## Wildfires by Month: <br>
 Looking at the data grouped by month, we can clearly see that the number of wildfires in winter is relatively low and that it significantly increases in the summer, especially in June and July
 
-<img src="https://i.pinimg.com/originals/83/c8/4d/83c84d102ec307e097a17e299e65bf51.jpg" width=600 align=center> <br> 
+<img src="https://i.pinimg.com/564x/3a/9e/22/3a9e22fde630dc6bf282908f087f71c6.jpg" width=600 align=center> <br> 
 
 ## Top Causes: <br>
 Tree Map with the top causes of wildfires shows us that the biggest cause of wildfires lighting. For a good chunk of it, the cause of the fire is not known.
 
-<img src="https://i.pinimg.com/564x/3a/9e/22/3a9e22fde630dc6bf282908f087f71c6.jpg" width=600 align=center> <br> 
+<img src="https://i.pinimg.com/originals/83/c8/4d/83c84d102ec307e097a17e299e65bf51.jpg" width=600 align=center> <br> 
 
 ## Folium Map for Fire Duration
 Plotted folium map shows the states with highestduration of wildfire: bigger the circle. longer the duration. Each marker provides information such as Incident name, duration, state and county.
@@ -99,21 +99,37 @@ Plotted folium map shows the states with highestduration of wildfire: bigger the
 CSS, Bootstrap and javascript are used to style the webpages. Elevator.js are used for scrolling purpose of the app.
 A flask app.py file was created as a micro web framework to deploy the web application. We hosted our application in Heroku as well as on GitHub.
 
-<img src="https://i.pinimg.com/564x/ac/49/9c/ac499c90d889075ed6454da57722358e.jpg" width=600 align=center> <br> 
+# Page1 : Index 
 
+<img src="https://i.pinimg.com/564x/9c/18/53/9c1853d8cd2eb91d8280fb3b0f49108c.jpg" width=600 align=center> <br> 
 
+# Page2 : Wildfire Analysis 
 
-<img src="https://i.pinimg.com/564x/f9/af/f6/f9aff653432b7c48e533cda621b7ba04.jpg" width=600 align=center> <br> 
+<img src="https://i.pinimg.com/originals/c8/58/39/c8583962726c74f7c06e351ffa03c01c.jpg" width=600 align=center> <br> 
 
+# Page3 : Wildfire Data 
 
 <img src="https://i.pinimg.com/564x/b6/31/d7/b631d78415d13e65f7c703a8270cc49a.jpg" width=600 align=center> <br> 
+
+## Unique Javascript :pencil:
+
+In our project we utilized Elevator.js for scrolling purpose. When you click on the elevator icon on the bottom of the page you will be automattically taken to the top with music :wink:
+
+<img src="https://i.pinimg.com/originals/44/da/4f/44da4f48fe2e5431e8b69e89675248d1.jpg" width=600 align=center> <br>
+
+## Application Link :checkered_flag:
+
+Please be aware that there is a lag when you click on the link because it loads around 2000-3000 custom fire icons on to the main page.
+
+- [Wildfire Dashboard - Github](https://ranjanianjurvenkatraman.github.io/Wildfire_Analysis/)
+- [Wildfire Dashboard - Heroku](https://wildfire-2021.herokuapp.com/)
 
 ## Contributors
 
 - [Ranjani Venkatraman](https://github.com/RanjaniAnjurVenkatraman)
 - [Novak Radovic](https://github.com/nradovic1)
 - [Saiana Darizhapova](https://github.com/Saiana82)
-- [David Owens](https://github.com/)
+- [David Owens](https://github.com/dowens1186)
 
 
 	
